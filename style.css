@@ -1,0 +1,155 @@
+body,html 
+{
+    position: relative; 
+	height:100%;
+}
+.affix 
+{
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar 
+{
+    margin: 0px;
+}
+
+.affix ~ .container-fluid 
+{
+    
+    position: relative;
+
+}
+#Onas
+{
+    padding:5%;color: #fff; background-color: #1E88E5;
+}
+
+#Oferta 
+{
+    padding:5%;color: #fff; background-color: #673ab7;
+}
+
+#Referencje 
+{
+    padding:5%;color: #fff; background-color: #ff9800;
+}
+
+#Galeria 
+{
+    padding:5%;color: #fff; background-color: #00bcd4;
+}
+
+#Kontakt 
+{
+    padding:5%;color: #fff; background-color: #009688;
+}
+.navbar-brand > img 
+{
+    height: 100%;
+    margin:auto;
+}
+.navbar-header
+{
+    padding:0px;
+    margin:auto;
+}
+.navbar-brand
+{
+    padding:0px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('img/tlo2.jpg');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo > img
+{
+	
+    height: 100%;
+    margin:auto;
+
+}
+#logo
+{
+	text-align: center;
+	background:#99FFFF;
+    margin:0px;
+}
+
+.container-fluid
+{
+	text-align:justify;
+}
+.container-fluid > h1
+{
+	text-align:center;
+    padding-bottom: 5%;
+}
+h1
+{
+    margin:0px
+}
+
+p
+{
+    font-size:2vh;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+.item > img
+{
+    width: 100%;
+}
+
+#stopka
+{
+    text-align: center;
+    background: black;
+    color: white
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 280px;
+  background: 
+  /* color overlay */ 
+    linear-gradient(
+      rgba(240, 212, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* image to overlay */
+    url(http://images.cdn.fotopedia.com/_avPIZmqM3w-7z161LH_268-hd.jpg);
+}
+
+
+/* Custom footer CSS
+-------------------------------------------------- */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff;
+}
